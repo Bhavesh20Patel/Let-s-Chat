@@ -1,0 +1,25 @@
+<?php
+
+        $sql = "select Name from users where token not in(select token from users where Name='" . mysqli_escape_string($conn, $currentname) . "')";
+        $result = mysqli_query($conn, $sql);
+        $num = mysqli_num_rows($result);
+
+        if ($num > 0) {
+
+            for ($i = 0; $i < $num; $i++) {
+
+                myfunction($result);
+            }
+        }
+        //USE GET ATTRIBUTE PROPERTY AS SEEN IN YTUBE VIDEO
+        function myfunction($result)
+        {
+            $row = mysqli_fetch_assoc($result);
+
+            $name = $row['Name'];
+
+            echo "<a id='.' href='#'>" . $row['Name'] . "</a>";
+            echo "<br>";
+        }
+
+        ?>

@@ -1,0 +1,80 @@
+/* body {
+    background-color: #fafafa;
+} */
+
+.signinform {
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 13px;
+}
+
+#signinform1 {
+    text-decoration: none;
+    color: blue;
+}
+
+;
+#signinfields {
+    padding: 10px;
+    margin: 10px;
+}
+
+.container {
+    /* border: 2px solid red; */
+    height: fit-content;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #fafafa;
+    /* margin-left: 20em;
+    margin-right: 20em; */
+}
+
+.navbarcontent {
+    text-decoration: none;
+    /* text-align: center;  */
+    font-family: 'Gluten', cursive;
+    font-size: 25px;
+    color: darkslategray
+}
+.navbarcontent:hover{
+    color: gray;
+}
+
+.a {
+    border: 2px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+}
+.a:hover{
+    background-color: #fafafa;
+}
+
+.welcomeline {
+    text-align: center;
+    margin-top: 2em;
+    font-size: 25px;
+    font-family: 'Comfortaa', cursive;
+
+}
+
+.touchedname {
+    font-size: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    border: 1px solid gray;
+    padding: 5px;
+    display: inline;
+    font-family: 'Comfortaa', cursive;
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+.touchedname:hover{
+    background-color: gray;
+    color: white;
+}
